@@ -4,13 +4,11 @@ import Login from "./Components/Login";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import SignUp from "./Components/SignUp";
 import MessOwnerDashboard from "./Components/MessOwnerDashboard";
-// import Subscriber from "./Components/Subscriber"
 import Profile from "./Components/Profile";
 
 function App() {
   return (
     <div className="App">
-
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SignUp />} />
@@ -20,7 +18,8 @@ function App() {
         <Route path="/profile" element={<Profile/>}/>
       </Routes>
     </BrowserRouter>
-  </div>
-  );
+    </div>
+  )
 }
-export default App;
+
+export default App

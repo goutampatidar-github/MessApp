@@ -1,6 +1,6 @@
 import pg from 'pg';
 var conString =
-	"postgres://btneohyg:DK6Bkm0ePKGblH86-DJmFFQ-TLfCGlzH@trumpet.db.elephantsql.com/btneohyg";
+	"postgres://qqaqecoz:gmSfPJuIGEELe4n1MxZjB9fRN9I2Dszp@trumpet.db.elephantsql.com/qqaqecoz";
 var client = new pg.Client(conString);
 client.connect(function (err) {
 	if (err) {
